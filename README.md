@@ -12,7 +12,7 @@ The notifications model predicts whether or not a user will open a notification 
 The inputs are mix of User observed behaviors, explicitly set preferences and characteristics of the incoming notification.
 
 * **isActiveDayOfWeek** = 0,1  *true (1) if the today is typically an active day for the user*
-* **isInInterest** = 0,1 *true if the notification*
+* **isInInterest** = 0,1 *true if topic for the headline in the notification comes from an article in the users defined interests*
 * **isAM** = 0,1 *notification time am or pm*
 * **isGeneric** = 0,1 *the notification has the generic message or a headline*
 
